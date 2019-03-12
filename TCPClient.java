@@ -34,7 +34,7 @@ public class TCPClient {
         socket = new Socket(host.getHostName(), 9876);
 
         oos = new ObjectOutputStream(socket.getOutputStream());
-        String sendData = getFile("file.txt");
+        String sendData = getFile("10000.txt");
         oos.writeObject(sendData);
         
         ois = new ObjectInputStream(socket.getInputStream());
