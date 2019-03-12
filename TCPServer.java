@@ -5,11 +5,6 @@ import java.lang.ClassNotFoundException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-/**
- * This class implements java Socket server
- * @author pankaj
- *
- */
 public class TCPServer {
     
     //static ServerSocket variable
